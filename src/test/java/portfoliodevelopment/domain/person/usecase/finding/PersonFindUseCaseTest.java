@@ -17,9 +17,9 @@ import portfoliodevelopment.domain.person.usecase.finding.dto.FindInput;
 import portfoliodevelopment.domain.person.usecase.finding.dto.FindMapper;
 
 @ExtendWith(MockitoExtension.class)
-class PersonFindTest {
+class PersonFindUseCaseTest {
   @Mock private PersonRepository personRepository;
-  @InjectMocks private PersonFind useCase;
+  @InjectMocks private PersonFindUseCase useCase;
 
   @Test
   void executeOk() {

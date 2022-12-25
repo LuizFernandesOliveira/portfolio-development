@@ -1,4 +1,4 @@
-package portfoliodevelopment.infrastructure._shared.database;
+package portfoliodevelopment.infrastructure.__shared.database;
 
 public class UUIDGenerator {
   public static final String NAME = "uuid2";

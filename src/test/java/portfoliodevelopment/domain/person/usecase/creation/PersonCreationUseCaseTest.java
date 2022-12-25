@@ -18,10 +18,10 @@ import portfoliodevelopment.domain.person.usecase.creation.dto.CreationInput;
 import portfoliodevelopment.domain.person.usecase.creation.dto.CreationMapper;
 
 @ExtendWith(MockitoExtension.class)
-class PersonCreationTest {
+class PersonCreationUseCaseTest {
   @Mock private PersonRepository personRepository;
   @Captor private ArgumentCaptor<Person> personCaptor;
-  @InjectMocks private PersonCreation useCase;
+  @InjectMocks private PersonCreationUseCase useCase;
 
   @Test
   void executeOk() {

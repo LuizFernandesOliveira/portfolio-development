@@ -14,7 +14,7 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import org.hibernate.annotations.GenericGenerator;
 import portfoliodevelopment.domain.person.entity.Gender;
-import portfoliodevelopment.infrastructure._shared.database.UUIDGenerator;
+import portfoliodevelopment.infrastructure.__shared.database.UUIDGenerator;
 
 @Entity
 @Table(name = "persons")

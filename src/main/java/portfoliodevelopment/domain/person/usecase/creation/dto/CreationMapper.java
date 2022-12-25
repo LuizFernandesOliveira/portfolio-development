@@ -13,7 +13,7 @@ public class CreationMapper {
         .phone(input.phone())
         .birthDate(input.birthDate())
         .gender(input.gender())
-        .build();
+        .build().validate();
   }
 
   public static CreationOutput toOutput(Person person) {
